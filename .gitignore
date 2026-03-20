@@ -1,0 +1,56 @@
+# Environment
+.env
+.env.example
+
+# Large Data Files (Raw)
+Data/raw/*.csv
+Data/raw/*.zip
+Data/raw/*.gz
+
+# Processed Data (Optional - usually keep samples but ignore large outputs)
+Data/Processed/*.csv
+Data/Processed/labelling/*.csv
+Data/Processed/Cleanup/*.csv
+outputs/*.csv
+outputs/charts/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# VS Code / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
