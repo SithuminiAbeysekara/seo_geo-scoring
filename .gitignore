@@ -7,8 +7,9 @@ Data/raw/*.csv
 Data/raw/*.zip
 Data/raw/*.gz
 
-# Processed Data (Optional - usually keep samples but ignore large outputs)
+# Processed Data (Keep specific scoring ready file but ignore others)
 Data/Processed/*.csv
+!Data/Processed/scoring_ready.csv
 Data/Processed/labelling/*.csv
 Data/Processed/Cleanup/*.csv
 outputs/*.csv
